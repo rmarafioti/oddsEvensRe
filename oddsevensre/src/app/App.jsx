@@ -1,11 +1,9 @@
 import { useState } from "react";
-import "./App.css";
-
 import store from "./store";
 import { Provider } from "react-redux";
-import Sorted from "./features/Sorted";
-import AddNumber from "./features/AddNumber";
-import NumberBank from "./features/NumberBank";
+import Sorted from "../features/Sorted.jsx";
+import AddNumber from "../features/AddNumber.jsx";
+import NumberBank from "../features/NumberBank.jsx";
 
 function App() {
   return (
